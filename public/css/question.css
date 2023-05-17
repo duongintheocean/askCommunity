@@ -1,0 +1,58 @@
+.containerNav {
+    background: black;
+    color: white;
+    display: flex;
+  }
+  
+  .containerNav nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .containerNav nav ul li {
+    margin-right: 10px;
+  }
+  
+  .containerNav nav ul li a {
+    color: rgb(168, 157, 157);
+    text-decoration: none;
+    font-size: larger;
+    padding-left: 10px;
+  }
+  
+  .containerNav nav ul li.logo a {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .question-content{
+    text-align: center;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+  .vote{
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .rate-bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .btn{
+    text-align: center;
+    margin-top: 50px;
+  }
+  #btn-btn{
+    font-size: 20px;
+    border: none;
+    background-color: rgb(93, 207, 93);
+    color: white;
+    border-radius: 5px;
+  }

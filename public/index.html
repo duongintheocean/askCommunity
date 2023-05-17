@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="containerNav">
+      <nav>
+        <ul>
+          <li class="logo"><a href="/ask">Hỏi.MịeĐê!</a></li>
+          <li><a href="/ask">Hỏi nhanh</a></li>
+          <li><a href="/">Đáp gọn</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section class="main-content">
+      <div class="question-content" id="question"></div>
+      <div class="btn-group">
+        <button class="btn" id="dislike" onclick="handleModifyLikeDisLike(-1)">
+          Sai/Không/Dislike
+        </button>
+        <button class="btn" id="like" onclick="handleModifyLikeDisLike(+1)">
+          Đúng/Có/Like
+        </button>
+      </div>
+    </section>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
